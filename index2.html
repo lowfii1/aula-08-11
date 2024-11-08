@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Trabalhando com JS</h1>
+    <h2>Js para DOM</h2>
+    <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati architecto delectus quidem exercitationem fuga.</p>
+
+    <script>
+        let elemento = document.querySelector("#p");
+        elemento.style.color="red";
+        console.log(elemento);
+        let titulo = document.querySelector("#titulo");
+        titulo.style.color="#87CEEB"
+        document.querySelector("h2").style.color="blue";
+
+    </script>
+    
+</body>
+</html>
